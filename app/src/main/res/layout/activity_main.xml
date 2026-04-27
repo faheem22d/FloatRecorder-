@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎙 FloatRecorder"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking permissions..."
+        android:textColor="#4CAF50"
+        android:textSize="14sp"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- BIG Record Button -->
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="🎙 START&#10;RECORDING"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="280dp"
+        android:layout_height="1dp"
+        android:background="#333333"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Floating Button Toggle -->
+    <Button
+        android:id="@+id/btnFloating"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:text="🟢 Enable Floating Button"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1565C0"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="The floating 🎙 button will appear over your call screen so you can record with one tap!"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- View Recordings -->
+    <Button
+        android:id="@+id/btnViewRecordings"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:text="📁 View Recordings"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#424242"/>
+
+</LinearLayout>
